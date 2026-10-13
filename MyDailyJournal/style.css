@@ -1,0 +1,130 @@
+
+/* Pengaturan dasar halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ef;
+    color: #444;
+    line-height: 1.8;
+}
+
+/* Bagian header */
+header {
+    background-color: #dce6d5;
+    color: #405343;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+/* Menu navigasi */
+nav {
+    background-color: #718873;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f5e8c7;
+}
+
+/* Isi halaman */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #0000000d;
+}
+
+h2 {
+    color: #526b55;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #718873;
+    margin-bottom: 8px;
+}
+
+article {
+    background-color: #f7f8f3;
+    padding: 18px;
+    margin: 15px 0;
+    border-left: 4px solid #91a88f;
+    border-radius: 5px;
+}
+
+/* Tombol */
+.tombol {
+    display: inline-block;
+    background-color: #718873;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.tombol:hover {
+    background-color: #526b55;
+}
+
+/* Identitas mahasiswa */
+.identitas {
+    background-color: #f7f8f3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Bagian footer */
+footer {
+    background-color: #dce6d5;
+    color: #405343;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Tampilan layar HP */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
